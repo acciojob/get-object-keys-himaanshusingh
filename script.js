@@ -3,7 +3,10 @@ const student = {
   name: "John",
   age: 23,
   city: "Manhattan",
-  getKeys: function (obj) {
-    return Object.keys(obj);
-  },
 };
+
+function getKeys(obj) {
+  return Object.keys(obj);
+}
+
+console.log(getKeys(student));
